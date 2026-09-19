@@ -1,7 +1,6 @@
 const express = require("express");
 
-const userRoutes = require("./src/routes/userRoutes");
-const authRoutes = require("./src/routes/authRoutes");
+const productRoutes = require("./src/routes/productRoutes");
 
 const {
   swaggerUi,
@@ -16,8 +15,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // API Routes
-app.use("/api/auth", authRoutes);
-app.use("/api/users", userRoutes);
+app.use("/api/products", productRoutes);
 
 // Swagger UI
 app.use(
@@ -29,8 +27,8 @@ app.use(
 // Health check
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Customer Support API is running",
-    version: "2.0.0",
+    message: "E-Commerce Product Catalog API is running",
+    version: "1.0.0",
     documentation: "/api-docs"
   });
 });
