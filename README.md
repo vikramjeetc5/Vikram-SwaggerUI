@@ -9,6 +9,7 @@
 [![Runtime](https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
 [![Framework](https://img.shields.io/badge/Express-v4-000000?style=for-the-badge&logo=express)](https://expressjs.com/)
 [![Specification](https://img.shields.io/badge/OpenAPI-3.0-85EA2D?style=for-the-badge&logo=openapiinitiative)](https://swagger.io/specification/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Swagger_UI-22C55E?style=for-the-badge&logo=render)](https://vikram-swaggerui.onrender.com/api-docs)
 
 <br>
 
