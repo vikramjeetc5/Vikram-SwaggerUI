@@ -67,6 +67,10 @@ All error responses output a uniform JSON structure across every endpoint:
     },
     servers: [
       {
+        url: "https://vikram-swaggerui.onrender.com", // You'll get this URL after Step 3
+        description: "Production Server"
+      },
+      {
         url: "http://localhost:3000",
         description: "Local Development Server"
       }

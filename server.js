@@ -9,7 +9,8 @@ const {
 
 const app = express();
 
-const PORT = 3000;
+// Use dynamic environment port provided by cloud services (e.g., Render) or default to 3000
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
@@ -45,8 +46,6 @@ app.use((req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-  console.log(
-    `Swagger UI running at http://localhost:${PORT}/api-docs`
-  );
+  console.log(`Server running on port ${PORT}`);
+  console.log(`Swagger UI available at /api-docs`);
 });
