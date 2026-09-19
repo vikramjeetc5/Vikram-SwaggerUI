@@ -2,15 +2,15 @@
 
 ### A RESTful microservice for inventory management, filtering, and OpenAPI 3.0 interactive documentation.
 
+<br>
 
+[![GitHub](https://img.shields.io/badge/GitHub-vikramjeetc5-181717?style=for-the-badge&logo=github)](https://github.com/vikramjeetc5)
+[![Repository](https://img.shields.io/badge/Repository-Vikram--SwaggerUI-6366F1?style=for-the-badge&logo=github)](https://github.com/vikramjeetc5/Vikram-SwaggerUI)
+[![Runtime](https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
+[![Framework](https://img.shields.io/badge/Express-v4-000000?style=for-the-badge&logo=express)](https://expressjs.com/)
+[![Specification](https://img.shields.io/badge/OpenAPI-3.0-85EA2D?style=for-the-badge&logo=openapiinitiative)](https://swagger.io/specification/)
 
-
-
-
-
-
-
-
+<br>
 
 **Engineered with precision — designed for clear developer experience and structured API documentation.**
 
